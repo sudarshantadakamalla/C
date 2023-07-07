@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4376B52A5874EA00C75E5D /* sumOfAllNumbersInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D4376B42A5874EA00C75E5D /* sumOfAllNumbersInArray.c */; };
+		2D4376B72A58763900C75E5D /* MinMaxInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D4376B62A58763900C75E5D /* MinMaxInArray.c */; };
 		2D828EDD2A570EF5007547ED /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D828EDC2A570EF5007547ED /* test.c */; };
 		2D828EDF2A5712BD007547ED /* binarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D828EDE2A5712BD007547ED /* binarySearch.c */; };
 		2D828EE12A574AD8007547ED /* ternarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D828EE02A574AD8007547ED /* ternarySearch.c */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D4376B42A5874EA00C75E5D /* sumOfAllNumbersInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sumOfAllNumbersInArray.c; sourceTree = "<group>"; };
+		2D4376B62A58763900C75E5D /* MinMaxInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MinMaxInArray.c; sourceTree = "<group>"; };
 		2D828EDC2A570EF5007547ED /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 		2D828EDE2A5712BD007547ED /* binarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binarySearch.c; sourceTree = "<group>"; };
 		2D828EE02A574AD8007547ED /* ternarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ternarySearch.c; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		2DEE4F852A55574C005184D8 = {
 			isa = PBXGroup;
 			children = (
+				2D4376B62A58763900C75E5D /* MinMaxInArray.c */,
+				2D4376B42A5874EA00C75E5D /* sumOfAllNumbersInArray.c */,
 				2D828EE02A574AD8007547ED /* ternarySearch.c */,
 				2D828EDE2A5712BD007547ED /* binarySearch.c */,
 				2D828EDC2A570EF5007547ED /* test.c */,
@@ -128,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4376B72A58763900C75E5D /* MinMaxInArray.c in Sources */,
 				2DEE4F922A55574C005184D8 /* linearSearch.c in Sources */,
+				2D4376B52A5874EA00C75E5D /* sumOfAllNumbersInArray.c in Sources */,
 				2D828EDF2A5712BD007547ED /* binarySearch.c in Sources */,
 				2D828EDD2A570EF5007547ED /* test.c in Sources */,
 				2D828EE12A574AD8007547ED /* ternarySearch.c in Sources */,
