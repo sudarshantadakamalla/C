@@ -13,6 +13,7 @@
 		2D828EDD2A570EF5007547ED /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D828EDC2A570EF5007547ED /* test.c */; };
 		2D828EDF2A5712BD007547ED /* binarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D828EDE2A5712BD007547ED /* binarySearch.c */; };
 		2D828EE12A574AD8007547ED /* ternarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D828EE02A574AD8007547ED /* ternarySearch.c */; };
+		2D8457352A59F577007FA008 /* mergeTwoSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D8457342A59F577007FA008 /* mergeTwoSortedArrays.cpp */; };
 		2DEE4F922A55574C005184D8 /* linearSearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE4F912A55574C005184D8 /* linearSearch.c */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		2D828EDC2A570EF5007547ED /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 		2D828EDE2A5712BD007547ED /* binarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binarySearch.c; sourceTree = "<group>"; };
 		2D828EE02A574AD8007547ED /* ternarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ternarySearch.c; sourceTree = "<group>"; };
+		2D8457342A59F577007FA008 /* mergeTwoSortedArrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergeTwoSortedArrays.cpp; sourceTree = "<group>"; };
 		2DEE4F8E2A55574C005184D8 /* C Lang Codes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Lang Codes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEE4F912A55574C005184D8 /* linearSearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = linearSearch.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				2D5093572A59D64A00DF2375 /* String Palindrome.c */,
+				2D8457342A59F577007FA008 /* mergeTwoSortedArrays.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				2D828EDF2A5712BD007547ED /* binarySearch.c in Sources */,
 				2D5093582A59D64A00DF2375 /* String Palindrome.c in Sources */,
 				2D828EDD2A570EF5007547ED /* test.c in Sources */,
+				2D8457352A59F577007FA008 /* mergeTwoSortedArrays.cpp in Sources */,
 				2D828EE12A574AD8007547ED /* ternarySearch.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

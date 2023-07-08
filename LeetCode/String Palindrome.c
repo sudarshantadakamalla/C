@@ -19,13 +19,13 @@ bool stringPalindrome(char str[], int size){
     }
     return true;
 }
-int main(){
-    char str[] = "racecar";
-    int size = strlen(str);
-    bool isPalindrome = stringPalindrome(str, size);
-    if(isPalindrome)
-        printf("is Palindrome\n");
-    else
-        printf("is not Palindrome\n");
-
-}
+//int main(){
+//    char str[] = "racecar";
+//    int size = strlen(str);
+//    bool isPalindrome = stringPalindrome(str, size);
+//    if(isPalindrome)
+//        printf("is Palindrome\n");
+//    else
+//        printf("is not Palindrome\n");
+//
+//}
