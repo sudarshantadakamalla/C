@@ -23,9 +23,9 @@ int minMaxArray(int arr[], int size){
     printf("Min in the array is %d\n", min);
     return 0;
 }
-int main(){
-        int arr[] = {1,3,5,2,6,8,0};
-        int arr2[] = {1,2,3,4};
-        int size = sizeof(arr)/sizeof(arr[0]);
-        int result = minMaxArray(arr, size);
-}
+//int main(){
+//        int arr[] = {1,3,5,2,6,8,0};
+//        int arr2[] = {1,2,3,4};
+//        int size = sizeof(arr)/sizeof(arr[0]);
+//        int result = minMaxArray(arr, size);
+//}
