@@ -37,18 +37,18 @@ vector<int> mergeTwoSortedArrays(vector<int>& arr1, vector<int>& arr2) {
     return finalArray;
 }
 
-int main() {
-    vector<int> arr1 = {1, 3, 5};
-    vector<int> arr2 = {2, 4, 8};
-
-    vector<int> mergedArray = mergeTwoSortedArrays(arr1, arr2);
-
-    cout << "Merged Array: ";
-    for (int i = 0; i < mergedArray.size(); i++) {
-        cout << mergedArray[i] << " ";
-    }
-    cout << endl;
-
-    return 0;
-}
+//int main() {
+//    vector<int> arr1 = {1, 3, 5};
+//    vector<int> arr2 = {2, 4, 8};
+//
+//    vector<int> mergedArray = mergeTwoSortedArrays(arr1, arr2);
+//
+//    cout << "Merged Array: ";
+//    for (int i = 0; i < mergedArray.size(); i++) {
+//        cout << mergedArray[i] << " ";
+//    }
+//    cout << endl;
+//
+//    return 0;
+//}
 

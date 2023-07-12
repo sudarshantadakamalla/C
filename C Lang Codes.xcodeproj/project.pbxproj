@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		2D4376B52A5874EA00C75E5D /* sumOfAllNumbersInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D4376B42A5874EA00C75E5D /* sumOfAllNumbersInArray.c */; };
 		2D4376B72A58763900C75E5D /* MinMaxInArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D4376B62A58763900C75E5D /* MinMaxInArray.c */; };
+		2D4DFA282A5C1C41005F14F0 /* 2Sum_2Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D4DFA272A5C1C41005F14F0 /* 2Sum_2Pointers.cpp */; };
 		2D5093582A59D64A00DF2375 /* String Palindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D5093572A59D64A00DF2375 /* String Palindrome.c */; };
+		2D5248032A5F0CBA004648AB /* reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D5248022A5F0CBA004648AB /* reverseString.cpp */; };
+		2D5248052A5F0D11004648AB /* squaresOfASortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D5248042A5F0D11004648AB /* squaresOfASortedArray.cpp */; };
+		2D6A187C2A5D5A9E006C9113 /* stringSubsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D6A187B2A5D5A9E006C9113 /* stringSubsequence.cpp */; };
 		2D828EDD2A570EF5007547ED /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D828EDC2A570EF5007547ED /* test.c */; };
 		2D828EDF2A5712BD007547ED /* binarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D828EDE2A5712BD007547ED /* binarySearch.c */; };
 		2D828EE12A574AD8007547ED /* ternarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D828EE02A574AD8007547ED /* ternarySearch.c */; };
@@ -32,7 +36,11 @@
 /* Begin PBXFileReference section */
 		2D4376B42A5874EA00C75E5D /* sumOfAllNumbersInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sumOfAllNumbersInArray.c; sourceTree = "<group>"; };
 		2D4376B62A58763900C75E5D /* MinMaxInArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MinMaxInArray.c; sourceTree = "<group>"; };
+		2D4DFA272A5C1C41005F14F0 /* 2Sum_2Pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2Sum_2Pointers.cpp; sourceTree = "<group>"; };
 		2D5093572A59D64A00DF2375 /* String Palindrome.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "String Palindrome.c"; sourceTree = "<group>"; };
+		2D5248022A5F0CBA004648AB /* reverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = reverseString.cpp; sourceTree = "<group>"; };
+		2D5248042A5F0D11004648AB /* squaresOfASortedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = squaresOfASortedArray.cpp; sourceTree = "<group>"; };
+		2D6A187B2A5D5A9E006C9113 /* stringSubsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stringSubsequence.cpp; sourceTree = "<group>"; };
 		2D828EDC2A570EF5007547ED /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 		2D828EDE2A5712BD007547ED /* binarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binarySearch.c; sourceTree = "<group>"; };
 		2D828EE02A574AD8007547ED /* ternarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ternarySearch.c; sourceTree = "<group>"; };
@@ -57,6 +65,8 @@
 			children = (
 				2D5093572A59D64A00DF2375 /* String Palindrome.c */,
 				2D8457342A59F577007FA008 /* mergeTwoSortedArrays.cpp */,
+				2D4DFA272A5C1C41005F14F0 /* 2Sum_2Pointers.cpp */,
+				2D6A187B2A5D5A9E006C9113 /* stringSubsequence.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -64,6 +74,8 @@
 		2DEE4F852A55574C005184D8 = {
 			isa = PBXGroup;
 			children = (
+				2D5248022A5F0CBA004648AB /* reverseString.cpp */,
+				2D5248042A5F0D11004648AB /* squaresOfASortedArray.cpp */,
 				2D5093562A59D63300DF2375 /* LeetCode */,
 				2D4376B62A58763900C75E5D /* MinMaxInArray.c */,
 				2D4376B42A5874EA00C75E5D /* sumOfAllNumbersInArray.c */,
@@ -151,10 +163,14 @@
 				2D4376B72A58763900C75E5D /* MinMaxInArray.c in Sources */,
 				2DEE4F922A55574C005184D8 /* linearSearch.c in Sources */,
 				2D4376B52A5874EA00C75E5D /* sumOfAllNumbersInArray.c in Sources */,
+				2D5248032A5F0CBA004648AB /* reverseString.cpp in Sources */,
+				2D5248052A5F0D11004648AB /* squaresOfASortedArray.cpp in Sources */,
 				2D828EDF2A5712BD007547ED /* binarySearch.c in Sources */,
 				2D5093582A59D64A00DF2375 /* String Palindrome.c in Sources */,
 				2D828EDD2A570EF5007547ED /* test.c in Sources */,
 				2D8457352A59F577007FA008 /* mergeTwoSortedArrays.cpp in Sources */,
+				2D4DFA282A5C1C41005F14F0 /* 2Sum_2Pointers.cpp in Sources */,
+				2D6A187C2A5D5A9E006C9113 /* stringSubsequence.cpp in Sources */,
 				2D828EE12A574AD8007547ED /* ternarySearch.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
